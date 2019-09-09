@@ -6,4 +6,4 @@
 
 ##### Alias
 alias kx="k exec "
-alias kxit="kexec -it "
+alias kxit="kx -it "
