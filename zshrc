@@ -5,5 +5,8 @@
 # ------------------------------------
 
 ##### Alias
-alias kx="k exec "
-alias kxit="kx -it "
+alias ke="k exec "
+alias keit="ke -it "
+alias kd="k describe"
+
+alias ksm="kd servicemonitors"
