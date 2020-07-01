@@ -16,7 +16,7 @@ alias kdsm="kd servicemonitors"
 # $3 kubernetes namespace
 # e.g kri curl-debug radial/busyboxplus:curl -n debug
 kubectl_run_i() {
-  local cmd="kubectl run $1 --image=$2 -i --rm --tty"
+  local cmd="kubectl run $1 --image=$2 -i --rm --tty --command /bin/sh"
   if [ -n "$3" ];
   then
     cmd+=" -n $3"
