@@ -11,6 +11,7 @@ alias kd="k describe"
 
 alias kdsm="kd servicemonitors"
 
+alias kg="k get"
 # $1 docker container name
 # $2 image name
 # $3 kubernetes namespace
