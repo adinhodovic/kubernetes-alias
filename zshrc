@@ -12,6 +12,9 @@ alias kd="k describe"
 alias kdsm="kd servicemonitors"
 
 alias kg="k get"
+
+alias kgevt="kubectl get events --sort-by='.lastTimestamp'"
+
 # $1 docker container name
 # $2 image name
 # $3 kubernetes namespace
