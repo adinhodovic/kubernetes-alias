@@ -34,3 +34,6 @@ kubectl_run_i_curl() {
 
 alias kri="kubectl_run_i"
 alias kri_curl="kubectl_run_i_curl"
+
+alias gkecreds="gcloud container clusters get-credentials"
+alias ekscreds="aws eks update-kubeconfig"
