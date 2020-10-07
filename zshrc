@@ -36,5 +36,5 @@ alias kri="kubectl_run_i"
 alias kri_curl="kubectl_run_i_curl"
 
 alias gkecreds="gcloud container clusters get-credentials"
-# --name ops --alias=tidepool-ops-new
+# ekscreds --name ops --alias=ops
 alias ekscreds="aws eks update-kubeconfig"
