@@ -32,8 +32,13 @@ kubectl_run_i_curl() {
   kubectl_run_i curl-debug radial/busyboxplus:curl $1;
 }
 
+kubectl_run_i_alpine() {
+  kubectl_run_i curl-debug alpine:latest $1;
+}
+
 alias kri="kubectl_run_i"
 alias kri_curl="kubectl_run_i_curl"
+alias kri_alpine="kubectl_run_i_alpine"
 
 alias gkecreds="gcloud container clusters get-credentials"
 # ekscreds --name ops --alias=ops
